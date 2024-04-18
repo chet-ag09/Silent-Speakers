@@ -24,7 +24,7 @@ class SignLanguageApp:
         self.bg = PhotoImage(file = "Asset imgs/bg_silent.png") 
         self.root.resizable(False, False)
 
-        self.tabControl = tb.Notebook(root, bootstyle="dark")  # Move tab initialization here
+        self.tabControl = tb.Notebook(root, bootstyle="dark") 
         self.tab1 = ttk.Frame(self.tabControl)
         self.tab2 = ttk.Frame(self.tabControl)
         self.tabControl.pack(expand = 1, fill ="both") 
